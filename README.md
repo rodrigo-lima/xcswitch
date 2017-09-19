@@ -12,7 +12,7 @@ For example:
 ```
 
 ## Why not 'xcode-select'?
-That's the official and "correct" (?) way of doing this, but I found that some older projects still have (or generate) map files that depend on `Applications/Xcode.app` being **the** Xcode location.
+That's the official and correct way of doing this, but I found that some older projects still have (or generate) map files that depend on `Applications/Xcode.app` being **the** Xcode location.
 
 Thus, if you `xcode-select` and pointed to `/Applications/Xcode8.2.1.app` the build will probably fail and/or you'll spend 100 hours trying to figure out why things don't work as they should. Trust me, it happened before...
 
